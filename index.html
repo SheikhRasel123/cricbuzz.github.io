@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!--main css link here -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!--  Bootstrap 4 link here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!--  Tweeter  link here -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- {# Nabbar here-1 #} -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+      <h4><strong>cricbuzz</h4></strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Live Scores <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Archives</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            News
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Series
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Teams
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Videos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Rankings
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <!-- {# Nabbar here-1 End #} -->
+
+  <!-- {# Nabbar here-2 #} -->
+  <div class="nav_2nd">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">MATCHES <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">BAN vs ZIM - Ings Break</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NZ vs IND - NZ Won</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">THAI vs HK - HK Won</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MLY vs SIN - SIN Won</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">KRK vs PSZ - KRK Won</a>
+          </li>
+
+
+        </ul>
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            More
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- {# Nabbar here-2 End #} -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="mt-4">New Zealand vs India, 2nd Test - Live Cricket Score, Commentary</h3>
+        <div class="row">
+          <div class="col-sm-4">
+            <span class="f"><b>Series: </b></span>
+            <a href="https://www.cricbuzz.com/cricket-series/2852/india-tour-of-new-zealand-2020"> India tour of New Zealand, 2020 </a>
+          </div>
+          <div class="col-sm-4">
+            <span class="f"><b>Venue: </b></span>
+            <a href="https://www.cricbuzz.com/cricket-series/2852/india-tour-of-new-zealand-2020/venues/371/hagley-oval"> India tour of New Zealand, 2020 </a>
+          </div>
+          <div class="col-sm-4">
+            <span class="f"><b>Date & Time: </b></span>
+            <p> Feb 29-Mar 04, 11:30 AM LOCAL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <!-- {# Nabbar here-3 #} -->
+        <div class="nav_3rd">
+          <nav class="navbar navbar-expand-lg navbar-light">
+
+
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link dd" href="#"><span>Commentary</span> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Highlights</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Full Commentary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Match Facts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+
+
+            </ul>
+
+        </div>
+        </nav>
+      </div>
+      <!-- {# Nabbar here-3 End #} -->
+    </div>
+  </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="bdr"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Box 2 here -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="row">
+
+
+          <div class="col-sm-8">
+            <div class="br">
+              <div class="box_8">
+                <span class="ind">IND 242, 124</span>
+                <br>
+                <span class="indb">NZ 235, 132/3 (36.0)</span>
+              </div>
+
+
+              <br>
+              <br>
+              <div class="row">
+                <div class="col-sm-4">
+                  <span>PLAYER OF THE MATCH<br><a href="#">Kyle Jamieson</a></span>
+                </div>
+                <div class="col-sm-4">
+                  <span>PLAYER OF THE SERIES<br><a href="#">Tim Southee</a></span>
+                </div>
+              </div>
+
+              <br>
+              <div class="jumbotron">
+                <p>NZ v IND, 2nd Test, Day 3, Match Story- New Zealand outplay India</p>
+                <iframe width="100%" height="415" src="https://www.youtube.com/embed/OVuN5XvNgs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <i class="fab fa-twitter">Tweet</i>
+              </div>
+              <b>NZ 2-0 IND | 16:15 Local Time | 08:45 IST:</b>
+              <p> It all began with an ODI win in Bangalore, when the Indian side hustled to the airport, intoxicated with the euphoria of a heartening win, for New Zealand. It simply didn't feel serious. There might've been the night in England that
+                India attempted to forget, but the T20Is vindicated their aberration theory. And then, the ODIs and the Tests led to a homesick landslide, during
+                <i>messy middle</i>
+                <span> phase of the tour. 5-0 to India, 3-0 and 2-0 to New Zealand: </span>
+                <i>ebbs and flows</i> are an understatement, don't you think? Alright then, that's it from our studio, as I,<b>Rishi Roy</b>, head for an extended slumber to compensate for 39 days of mayhem for my body cycle, alongside <b>Raju
+                  Peethala, Ramakrishnan MS, Praveen</b>, and <b>Nikhil Jadhav</b>, who can probably relate. That's it from the Kiwi country then. It's been real. <i>*Bids goodbye with hip millennial hand gesture*</i> </p>
+
+              <div class="text_boxes">
+                <div class="img">
+                  <img src="img/nirob.jpg" alt="Paris" width="40" height="40">
+                </div> <b>Harsha Bhogle</b>: It didn't help that India lost two key tosses but good on Kohli to say that he won't look at that as a factor
+                <br>
+                <a href="#" class="ml-5">Tweet</a>
+              </div>
+              <span class="blocket">T20: NZ 0-5 India | ODI: NZ 3-0 India | Tests: NZ 2-0 India</span>
+              <div class="para">
+                <p><b>Kane Williamson | New Zealand captain:</b>Outstanding feeling. Fairly sporting surfaces in both Tests. Bowlers had to put it in the right areas, but this pitch played well on all the days, even though history suggests it
+                  flattens out after doing a bit initially. I think therein lies the value of the 30-40 run partnerships. I don't think the end result shows how tight that match was. We saw how many times the ball beat the bat. A fantastic series
+                  from outside and the way the guys stuck in. India are a world-class side and to beat them is quite satisfying. Jamieson's a very exciting talent, and contributed incredibly well with both bat and ball in both games. He's tall and
+                  gets bounce which is very helpful in these conditions. The runs he scored in the backend of both games were very valuable. Great progress for him. The guys had to be disciplined, and the wicket was doing enough, but the fast
+                  outfields did allow runs, and it was important to hang in there. A few heavy learning curves, a few good bits in this summer, but these are all part of it. You're always trying to improve and the two games here have been
+                  opportunities to learn too.</p>
+
+                <p><b>Virat Kohli (2/2):</b>We are not a side that thinks about the result of the toss. Yes it did give a bit of extra advantage to the bowlers in the first two hours of each Test, but as an international side playing so well over
+                  two, three seasons, you are expected to go out and execute in those conditions. We were not able to do that this time. We are not going to take excuses from this tour, just the learning and the mistakes we committed and try and
+                  improve as we move forward. T20s were pretty good. In the ODIs it was good to see the youngsters stepping up with Rohit not being available and me not getting runs. Those are a few positives, but as a Test team we were not able to
+                  play the kind of cricket we wanted to. We need to accept we were not good enough, take it on the chin and improve those things.</p>
+
+                <p><b>Virat Kohli | India captain (1/2):</b>I think it was a matter of not having enough intent in the first game. We played well in the first innings here with the bat. We also need to give credit to the New Zealand bowlers, they
+                  bowled in the right areas long enough, created a lot of pressure. There were hardly any opportunities, that meant you have to play extravagant shots for runs than just keep rotating strike. It was a combination of us not having the
+                  right kind of execution and New Zealand playing well. The consistency of their bowling was outstanding, forced us to do mistakes. We are usually a batting side that fights. Batsmen didn't do enough for the bowlers to attack. It's
+                  disappointing as a side when the batsmen don't back up the effort of the bowlers. To win series and matches outside home you need to have a balanced performance with bat and ball and in the field - take those chances as well. We
+                  need to go back, understand what went wrong and correct those things moving forward.</p>
+
+                <p><b>Tim Southee</b> is the<b> Player of the Series</b> for taking 14 wickets.</p>
+
+                <p><b>Kyle Jamieson | Player of the Match:</b>It's been pretty surreal couple of weeks, just to be part of the group and win a couple of matches feels good. Pitch conditions obviously help and trying to find the fuller length and
+                  making decisions more often about the length and sometimes natural variations take over. It's certainly time that I work on a lot on my batting, especially batting lower down the order and in both tests the partnerships down the
+                  order have made a difference. Having had a small taste of Test cricket, it's important to work on things and come back better.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-sm-4">
+            <div class="box_4">
+              <span class="ind_2">Trending Videos</span>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/RsU8lBQtT6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <span class="ind_2"><a href="#">WT20 Group Stage Review: India, South Africa shine to go top</a></span>
+              <br>
+              <br>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/x_prt6sDXUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <span class="ind_2"><a href="#">WT20 Group Stage Review: India, South Africa shine to go top</a></span>
+              <br>
+              <br>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/szPez5q2mY0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+              <span class="ind_2"><a href="#">WT20 Group Stage Review: India, South Africa shine to go top</a></span>
+              <br>
+              <br>
+              <div class="cntr">
+                <button type="button" class="btn btn-success">More Videos</button>
+              </div>
+
+
+              <br>
+              <br>
+              <span class="ind_2">LATEST NEWS</span>
+
+              <div class="all">
+                <div class="box_side_1">
+                  <img src="img/2.jpg" alt="Aus" width="100" height="90">
+                </div>
+                <div class="news">
+                  <a href="#">South Africa and rain stand in Australia's path to MCG</a>
+                </div>
+              </div>
+
+              <div class="all">
+                <div class="box_side_1">
+                  <img src="img/3.jpg" alt="Aus" width="100" height="90">
+                </div>
+                <div class="news">
+                  <a href="#">Can India's burning ambition rival England's big-match pedigree?</a>
+                </div>
+              </div>
+
+              <div class="all">
+                <div class="box_side_1">
+                  <img src="img/5.jpg" alt="Aus" width="100" height="90">
+                </div>
+                <div class="news">
+                  <a href="#">South Africa and rain stand in Australia's path to MCG</a>
+                </div>
+              </div>
+
+              <div class="all">
+                <div class="box_side_1">
+                  <img src="img/4.jpg" alt="Aus" width="100" height="90">
+                </div>
+                <div class="news">
+                  <a href="#">South Africa and rain stand in Australia's path to MCG</a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-flued">
+    <div class="row">
+      <div class="col-12">
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <span class="ftr_1"><a href="">cricbuzz</a></span>
+              </div>
+              <div class="col-sm-3">
+                <span class="apps">MOBILE SITE & APPS</span>
+              </div>
+              <div class="col-sm-3">
+                <span class="apps">FOLLOW US ON</span>
+              </div>
+              <div class="col-sm-3">
+                <span class="apps">COMPANY</span>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+
+
+<!-- {# Js link Here #} -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
